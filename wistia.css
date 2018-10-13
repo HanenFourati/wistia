@@ -1,0 +1,337 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    color: rgb(117, 116, 116);
+    text-decoration: none;
+}
+.alist{
+   font-weight: bold;
+}
+.afooter
+{
+    color: gray;
+}
+hr { 
+    display: block;
+    
+    border-width:1px;
+    color: gray;
+} 
+.alist:hover{
+  color: rgb(54, 52, 52);
+}
+
+
+/************************************ geniric css part finished******************************/
+.wistia-header{
+    display: flex;
+    justify-content: space-between;
+    background-color:white	;
+}
+.nav-high-low
+{ width: 50%; }
+.wistia-headerone
+{   width: 20%;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid lightgray;  
+    border-right-width: thin;
+}
+#header-nav-list1{
+    display: flex;
+    color: rgb(61, 59, 59);
+    list-style-type: none;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    padding: 1%;
+    align-items: center;
+}
+#header-nav-list2
+{   border-top: 1px solid lightgray;  
+    display: flex;
+    color: rgb(61, 59, 59);
+    list-style-type: none;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    padding: 1%;
+    align-items: center;
+    
+}
+
+.wistia-headertwosign{
+    justify-content: space-between;
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-left: 2px solid lightgray;  
+    border-left-width: thin;
+}
+.wistia-headertwologin{
+    justify-content: space-between;
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-left: 2px solid lightgray;  
+   border-left-width: thin;
+}
+.logo_image{
+    height: 40px;
+    width: 40px;
+}
+
+#wisitia-logo-text{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wisitia-logo-text:hover {
+    
+    
+    text-shadow: 0 0 100px rgb(255, 255, 255),                
+				 0 0 100px rgb(255, 255, 255),               
+				                
+				 0 0 50px rgb(115, 193, 238),                
+				                
+				 0 0 50px rgb(115, 193, 238);
+}
+.wistia-headertwologin:hover{
+    background-color: rgb(245, 245, 245);
+}
+.wistia-headertwosign:hover{
+    background-color: rgb(245,245, 239);
+}
+
+/**************************** header css part ******************************/
+/****************** video css part *************/
+.video-section
+{
+    position: absolute;
+    top: 30%;
+    left:15%;
+    
+ 
+}
+#fixed-video{
+   position: relative;
+   right: 0;
+   width: 100%;
+   height: 600px; 
+   margin-bottom: -10px;
+}
+.button-type-1{
+    background-color: white; /* Green */
+    border: 2px solid white;
+    color: rgb(61, 59, 59);
+    padding: 20px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.button-type-1:hover{
+    padding: 20px 36px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:  rgb(61, 59, 59);
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 6px lightgray;
+
+}
+/***********************video css part finished ************************/
+.colored-boxes
+{ display: flex;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif; */
+ 
+
+    font-size: 20px;}
+.box1{
+    background-color:#FED24A;
+    padding: 45px 58px 50px;
+    width: 33%;
+}
+.box2{
+    background-color: #51C29F;
+    padding: 45px 58px 50px;
+    align-items: baseline;
+    width: 33%;
+}
+.box3{
+    background-color: #3EA9F5;
+    padding: 45px 58px 50px;
+    align-items: baseline;
+    width: 33%;
+}
+.buttons-colored-boxes{
+    align-items: baseline;
+    border: 2px solid white;
+    color: rgb(61, 59, 59);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    align-items: baseline;
+}
+.one{
+    background-color:#FED24A;
+   
+}
+.one:hover{
+    background-color: white;
+}
+.two{
+    background-color: #51C29F;
+}
+.two:hover{
+    background-color: white;
+
+}
+.three{
+    background-color: #3EA9F5;  
+}
+.three:hover{
+    background-color: white;
+
+}
+/**********************************colored boxes css part finished **************************/
+.brand-list{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+    padding-left: 2%;
+}
+.brand-images{
+    width: 16%;
+    
+}
+/*************************** brand list css part finished ************************/
+.articals
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 2%;
+    align-content:center;
+}
+.artical-model1,.artical-model2,.artical-model3{
+    padding: 1%;
+    width: 33%
+    
+}
+.artical-model1 figure {
+	background: #71bef1;
+}
+.artical-model1 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.artical-model1 figure:hover img {
+	opacity: .5;
+}
+.artical-model2 figure {
+	background: #1abc9c;
+}
+.artical-model2 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.artical-model2 figure:hover img {
+	opacity: .5;
+}
+.artical-model3 figure {
+	background:  #eb5beb;
+}
+.artical-model3 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.artical-model3 figure:hover img {
+	opacity: .5;
+}
+/************************* articals css finished **************************/
+.update{
+    display: flex;
+    background-color: #e8e7e6;
+width: 100%;
+height: 100px;
+align-items: center;
+justify-content: center;
+
+}
+
+
+/***************************** footer started ********************/
+.footer-section{
+    background: #2A2D35;
+    color: white;
+    padding: 5%;
+    
+}
+.footer-section-global
+ {
+    
+    display:  flex;
+    align-items: space-between;
+    
+ }
+ #product, #company, #learn, #support{
+    list-style-type: none; 
+    color: white;
+ }
+ .copy_right{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+     /*border-top: 2px solid lightgray;  
+   border-top-width: thin; */
+   padding: 2%;
+    
+ }
+ .footer-section-word{ 
+    width: 25%;
+
+ }
+.footer-section-two-product{
+    width: 19%;
+}
+.footer-section-two-company
+{
+    width: 19%;
+}
+.footer-section-two-learn
+{
+    width: 19%;
+}
+.footer-section-two-support
+{
+    width: 19%;
+}
+#linkterms:hover{
+    text-decoration: underline;
+}
+#linkprivercy:hover{
+    text-decoration: underline;
+}
+.afooter:hover{
+    text-decoration: underline;
+}
+.socialmedialink{
+    text-decoration: none; color: lightskyblue;
+}
+.socialmedialink:hover{
+    text-decoration: underline;
+}
